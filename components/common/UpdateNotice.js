@@ -11,7 +11,7 @@ export default function UpdateNotice() {
   const { hasUpdate, checked, latest, updateCheck } = useVersion(true);
 
   function handleViewClick() {
-    location.href = 'https://github.com/mikecao/umami/releases';
+    location.href = 'https://nayanpatel.net';
     updateCheck();
     forceUpdate();
   }

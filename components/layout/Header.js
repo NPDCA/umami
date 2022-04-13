@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import { FormattedMessage } from 'react-intl';
 import classNames from 'classnames';
 import Link from 'components/common/Link';
-import Icon from 'components/common/Icon';
 import LanguageButton from 'components/settings/LanguageButton';
 import ThemeButton from 'components/settings/ThemeButton';
 import HamburgerButton from 'components/common/HamburgerButton';
@@ -21,7 +20,6 @@ export default function Header() {
       {user?.is_admin && <UpdateNotice />}
       <header className={classNames(styles.header, 'row')}>
         <div className={styles.title}>
-          <Icon size="large" className={styles.logo} />
           <Link href={pathname.includes('/share') ? HOMEPAGE_URL : '/'}>Analytics</Link>
         </div>
         <HamburgerButton />

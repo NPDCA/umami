@@ -1,8 +1,8 @@
 {
-  "name": "Nayan Analytics",
+  "name": "NP Analytics",
   "description": "Umami is a simple, fast, website analytics alternative to Google Analytics.",
   "keywords": ["analytics", "charts", "statistics", "web-analytics"],
-  "website": "https://nayanpatel.net",
+  "website": "#",
   "repository": "https://github.com/Digital-Support-Notes/umami",
   "addons": ["heroku-postgresql"],
   "env": {
